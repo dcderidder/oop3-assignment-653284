@@ -1,2 +1,4 @@
-package edu.inholland.OOP3_assignment_653284.domain;public class MovieRepository {
-}
+package edu.inholland.OOP3_assignment_653284.domain;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface MovieRepository extends JpaRepository<Movie, Long> {}
